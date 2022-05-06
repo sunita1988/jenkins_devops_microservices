@@ -18,7 +18,7 @@
 
 // declarative
 
-pileline {
+pipeline {
 	agent any
 	stages {
 		stage('Build') {
