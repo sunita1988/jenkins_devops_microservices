@@ -31,15 +31,10 @@ pipeline {
 				echo "Test"
 			}
 		}
-		stage('test2') {
+		stage('Test2') {
 			steps{
 				echo "Test2"
 			}
-		}
-	}
-	stage('Prod') {
-		steps{
-			echo "Prod"
 		}
 	}
 }
