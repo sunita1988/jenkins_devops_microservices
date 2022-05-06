@@ -38,6 +38,8 @@ pipeline {
 		}
 	}
 	stage('Prod') {
-		echo "Test"
+		steps{
+			echo "Prod"
+		}
 	}
 }
