@@ -36,5 +36,15 @@ pipeline {
 				echo "Test2"
 			}
 		}
+	}post{
+		always{
+			echo "i am awesome"
+		}
+		success{
+			echo "success"
+		}
+		failure{
+			echo "fail"
+		}
 	}
 }
