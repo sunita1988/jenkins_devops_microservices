@@ -19,7 +19,8 @@
 // declarative
 
 pipeline {
-	agent any
+	// agent any  if we donnot use any agent
+	agent{ docker { image 'maven:3.6.3'}}
 	stages {
 		stage('Build') {
 			steps {
