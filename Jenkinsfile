@@ -36,7 +36,9 @@ pipeline {
 				echo "Test2"
 			}
 		}
-	}post{
+	}
+	
+	post{
 		always{
 			echo "i am awesome"
 		}
