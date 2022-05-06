@@ -18,19 +18,20 @@
 
 // declarative
 
-pileline{
-	stages{
-		stage('Build'){
-			steps{
+pileline {
+	agent any
+	stages {
+		stage('Build') {
+			steps {
 				echo "Build"
 			}
 		}
-		stage('Test'){
+		stage('Test') {
 			steps{
 				echo "Test"
 			}
 		}
-		stage('test2'){
+		stage('test2') {
 			steps{
 				echo "Test2"
 			}
