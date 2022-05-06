@@ -36,4 +36,7 @@ pileline{
 			}
 		}
 	}
+	stage('Prod') {
+		echo "Test"
+	}
 }
