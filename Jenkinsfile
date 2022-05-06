@@ -20,7 +20,7 @@
 
 pipeline {
 	// agent any  if we donnot use any agent
-	agent{ docker { image 'maven:3.6.3'} }
+	agent{ any { image 'maven:3.6.3'} }
 	stages {
 		stage('Build') {
 			steps {
